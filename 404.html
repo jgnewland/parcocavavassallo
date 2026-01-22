@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>Redirect</title>
+  <script>
+    (function () {
+      var targetBase = "https://www.tuodominio.it";
+      var path = window.location.pathname || "/";
+      var qs = window.location.search || "";
+      var hash = window.location.hash || "";
+      window.location.replace(targetBase + path + qs + hash);
+    })();
+  </script>
+</head>
+<body></body>
+</html>
